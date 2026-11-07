@@ -32,3 +32,10 @@ body{
         }
     }
 }
+
+
+@media (width < 865px){
+    .texts-container{
+        flex-direction: column;
+    }
+}

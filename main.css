@@ -13,4 +13,8 @@ body{
     margin: 5rem;
     padding: 1rem;
     background: #fff;
+    border-radius: 0.875rem;
+    .par-header{
+        
+    }
 }

@@ -4,3 +4,13 @@
     box-sizing: border-box;
     font-family: "Nunito";
 }
+
+body{
+    background: beige;
+}
+
+.par-container{
+    margin: 5rem;
+    padding: 1rem;
+    background: #fff;
+}

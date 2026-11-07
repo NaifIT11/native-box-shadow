@@ -13,7 +13,9 @@ body{
     background: var(--body-bg);
 }
 
-
+.texts-container{
+    display: flex;
+}
 
 .par-container{
     margin: 5rem;

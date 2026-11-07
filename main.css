@@ -5,8 +5,12 @@
     font-family: "Nunito";
 }
 
+* {
+    --body-bg: rgb(245 , 245 ,250);
+}
+
 body{
-    background: beige;
+    background: var(--body-bg);
 }
 
 .par-container{
@@ -16,5 +20,10 @@ body{
     border-radius: 0.875rem;
     .par-header{
         margin-bottom: 0.75rem;
+    }
+    .par-text{
+        &::selection{
+            background: var(--body-bg);
+        }
     }
 }
